@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+body {
+  background-color: #000;
+  color: #f5f5dc;
+  font-family: "Caveat", serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Caveat", serif;
+}
+
+a {
+  color: #f5f5dc;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid #f5f5dc;
+}
+
+/*# sourceMappingURL=global.css.map */
