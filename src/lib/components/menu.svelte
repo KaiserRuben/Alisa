@@ -4,8 +4,8 @@
 
 <ContentContainer>
 	<div class='content'>
-		<a href='/work'>my work</a>
-		<a href='/bio'>my bio</a>
+		<a href='/#'>my work</a>
+		<a href='/#'>my bio</a>
 	</div>
 </ContentContainer>
 <style lang='scss'>

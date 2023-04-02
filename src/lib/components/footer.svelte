@@ -3,7 +3,7 @@
 </script>
 <ContentContainer>
 	<div class='content'>
-		<a href='/impressum'>
+		<a href='/#'>
 			Impressum
 		</a>
 	</div>

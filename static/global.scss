@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
-@import "../src/vars";
+
+// Path: static/variables.scss
+// base colours
+$base-black: #000000;
+$base-white: #ffffff;
+
+//other colors
+$accent-color: #0d0cfb;
+
+$background: #000;
+$color: #f5f5dc;
+
+// screen sizes
+$mobile: 768px;
+$desktop: 1024px;
+$large: 1536px;
+
 
 body {
   background-color: $background;
