@@ -82,10 +82,10 @@ Overall, this contemporary dance piece on temptation seeks to captivate and move
           image="/assets/PB256642.webp"
         />
         <Card
-          heading="Journey"
+          heading="One-Way"
           text="Step into the enigmatic realm of a contemporary dance performance that beckons you to explore the depths of a journey with no return. In this captivating choreography, the true meaning lies shrouded in mystery, inviting the audience to unravel their own interpretations and embark on a personal voyage of introspection.
 
-Mariella and Victoria grace the stage, holding a slender thread that becomes the emblematic conduit of their irreversible odyssey. With fluid movements and poetic gestures, they navigate the intricacies of existence, each step resonating with a profound sense of purpose and the ceaseless progression of time.
+Mariella and Vittoria grace the stage, holding a slender thread that becomes the emblematic conduit of their irreversible odyssey. With fluid movements and poetic gestures, they navigate the intricacies of existence, each step resonating with a profound sense of purpose and the ceaseless progression of time.
 
 The thread, a symbolic lifeline, hints at the profound significance of the journey undertaken. Its ethereal nature leaves room for speculation, inviting contemplation about the nature of our own lives and the uncharted paths we traverse. As the dancer weaves and twines the thread through their movements, the true essence of this enigmatic expedition becomes an enigma to be deciphered by each individual spectator.
 
