@@ -37,7 +37,7 @@
 
 
 <style lang='scss'>
-  @import '../../vars';
+  @import "static/global.scss";
 
   header {
     display: flex;

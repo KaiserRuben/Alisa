@@ -4,11 +4,11 @@
 </script>
 
 <div class='page'>
-	<Header />
+	<!--	<Header />-->
 	<div class='content'>
 		<slot />
 	</div>
-	<Footer />
+	<!--	<Footer />-->
 </div>
 
 <style>

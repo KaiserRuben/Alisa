@@ -5,47 +5,64 @@
 <svelte:head>
 	<title>Alisa - Dance Professionally</title>
 </svelte:head>
-<ContentContainer>
-	<div class='name'>
-		<h1>
-			Alisa <br />Mićunović
-		</h1>
+
+<!-- Huuuge landing image with my name on it , supposed to have the "Hello there"-effect-->
+<section class='helloThere'>
+	<ContentContainer>
+		<div class='nameContainer'>
+			<div class='name'>
+				<h1>
+					Alisa <br />Mićunović
+				</h1>
+			</div>
+		</div>
+	</ContentContainer>
+
+	<!-- Down arrow to show user that there is more content below -->
+	<div class='arrowContainer'>
+		<svg xmlns='http://www.w3.org/2000/svg' class='icon' viewBox='0 0 512 512'>
+			<path fill='none' stroke='#ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='48'
+						d='M112 184l144 144 144-144' />
+		</svg>
 	</div>
-	<img src={`/assets/Alisa1.webp`} alt={`Alisa Dancing 1`} height='100px' width='100px' class='image'>
-	<!--	<div class='pictures'>-->
-	<!--		{#each [1, 2, 3] as i}-->
-	<!--			&lt;!&ndash;			<div style={`&#45;&#45;background-image: url("/assets/Alisa${i}.webp")`} class='img'></div>&ndash;&gt;-->
-	<!--			<img src={`/assets/Alisa${i}.webp`} alt={`Alisa Dancing ${i}`} height='100px' width='100px'>-->
-	<!--		{/each}-->
-	<!--	</div>-->
-</ContentContainer>
-
+</section>
 <style lang='scss'>
-  .name {
-    margin-top: 15vh;
+  @import "static/global.scss";
+
+  .nameContainer {
     position: relative;
-
-  }
-
-  .image {
     width: 100%;
-    height: auto;
-    margin-top: -15vh;
-    z-index: -1;
-    position: relative;
+    height: 90vh;
+    background-size: cover;
+    background: $background url("/assets/Alisa1.webp") no-repeat center;
+    overflow: hidden;
+
+
+    @media screen and (max-width: $mobile) {
+      background: $background url("/assets/Alisa1.webp") no-repeat right;
+      background-size: cover;
+    }
   }
 
-  //.pictures {
-  //  display: flex;
-  //  flex-direction: row;
-  //  align-items: center;
-  //  max-width: 100%;
-  //
-  //  img {
-  //    object-fit: contain;
-  //    height: auto;
-  //    width: 25vw;
-  //    margin: 0 1vw;
-  //  }
-  //}
+  .name {
+    font-weight: bold;
+    color: $color; /* Adjust the color as needed to ensure visibility */
+    margin: 10vw;
+
+  }
+
+
+  .arrowContainer {
+    text-align: center;
+    height: 5vh;
+    margin: 3vh 0 2vh 0; //must add up to 5vh, so that it makes 100vh together with the nameContainer and the height of this container
+    @media screen and (max-width: $mobile) {
+      margin: 2.5vh 0;
+    }
+
+    .icon {
+      height: 100%;
+    }
+  }
+
 </style>

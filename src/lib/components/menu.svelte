@@ -9,7 +9,7 @@
 	</div>
 </ContentContainer>
 <style lang='scss'>
-  @import '../../vars';
+  @import "static/global.scss";
 
   .content {
     z-index: 10;

@@ -3,7 +3,7 @@
 </div>
 
 <style lang='sass'>
-  @import '../../vars'
+  @import "static/global.scss"
   *
     box-sizing: border-box
 
@@ -12,7 +12,7 @@
     margin: 0 auto
     position: relative
     @media screen and (max-width: $mobile)
-      max-width: 90%
+      //max-width: 90%
     @media screen and (min-width: $desktop)
       max-width: 100%
     @media screen and (min-width: $large)
