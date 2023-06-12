@@ -65,6 +65,8 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: 100;
     backdrop-filter: blur(8px) saturate(10%);
+		// safari
+		-webkit-backdrop-filter: blur(8px) saturate(10%);
 
     padding: 0 10vw;
 
