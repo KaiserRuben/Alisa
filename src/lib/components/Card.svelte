@@ -46,9 +46,11 @@
     padding: 0 20px 20px 20px;
     height: 350px;
     cursor: pointer;
-
     p {
       text-align: justify;
+      @media screen and (max-width: $mobile) {
+        font-size: .95rem;
+      }
     }
   }
 
