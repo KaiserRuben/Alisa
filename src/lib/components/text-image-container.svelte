@@ -26,6 +26,9 @@
     background-size: cover;
     height: 40vh;
 
+		@supports (-webkit-overflow-scrolling: touch) {
+			background-attachment: scroll;
+		}
     h2 {
       background: $background;
       position: relative;
