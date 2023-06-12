@@ -9,12 +9,35 @@ h1 {
   font-family: "Caveat", serif;
 }
 
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Montserrat", serif;
+}
+
 a {
   color: #f5f5dc;
   text-decoration: none;
 }
 a:hover {
   border-bottom: 1px solid #f5f5dc;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #f5f5dc;
+  background-color: #f5f5dc; /* Optional: Set background color to match the line color */
+  height: 1px; /* Set the height of the line */
+  border: none; /* Remove default border */
 }
 
 /* caveat-regular - latin_latin-ext */
@@ -48,6 +71,14 @@ a:hover {
   font-style: normal;
   font-weight: 700;
   src: url("https://fonts.kaiser.fyi/caveat-v17-latin_latin-ext-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.kaiser.fyi/montserrat-v25-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /*# sourceMappingURL=global.css.map */

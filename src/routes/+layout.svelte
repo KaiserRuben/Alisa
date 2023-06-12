@@ -8,7 +8,7 @@
 	<div class='content'>
 		<slot />
 	</div>
-	<!--	<Footer />-->
+	<Footer />
 </div>
 
 <style>
@@ -25,9 +25,5 @@
         min-height: 100%;
 
         overflow-x: hidden;
-    }
-
-    .content {
-        min-height: 94vh;
     }
 </style>

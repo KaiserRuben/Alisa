@@ -12,7 +12,7 @@
 </div>
 
 <style lang='sass'>
-  @import "../vars"
+  @import "static/global.scss"
   .container
     align-items: center
     justify-content: flex-start
